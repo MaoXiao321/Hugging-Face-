@@ -64,7 +64,6 @@ from transformers import AutoTokenizer
 checkpoint = "distilbert-base-uncased-finetuned-sst-2-english"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 ```
-
 ### Section5: 介绍批处理、补齐、注意力掩码、截断
 
 ### Section6: 用Tokenizer搞定预处理pipline，介绍相关参数设置
@@ -89,7 +88,7 @@ output = model(**tokens)
 ## chapter3
 在自己的数据集上微调transformer预训练模型
 
-### Section1: 用Tokenizer搞定预处理pipline，介绍相关参数设置
+### Section1: 数据集加载与批处理
 
 
 
